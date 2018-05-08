@@ -18,7 +18,7 @@ public class UserDetailsFragment_ViewBinding implements Unbinder {
 
   private View view2131230726;
 
-  private View view2131230779;
+  private View view2131230778;
 
   @UiThread
   public UserDetailsFragment_ViewBinding(final UserDetailsFragment target, View source) {
@@ -48,7 +48,7 @@ public class UserDetailsFragment_ViewBinding implements Unbinder {
     });
     view = Utils.findRequiredView(source, R.id.deny_user, "field 'denyUser' and method 'onViewClicked'");
     target.denyUser = Utils.castView(view, R.id.deny_user, "field 'denyUser'", Button.class);
-    view2131230779 = view;
+    view2131230778 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -81,7 +81,7 @@ public class UserDetailsFragment_ViewBinding implements Unbinder {
 
     view2131230726.setOnClickListener(null);
     view2131230726 = null;
-    view2131230779.setOnClickListener(null);
-    view2131230779 = null;
+    view2131230778.setOnClickListener(null);
+    view2131230778 = null;
   }
 }

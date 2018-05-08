@@ -66,4 +66,9 @@ public class UsersListFragment extends Fragment {
         super.onDestroyView();
         unbinder.unbind();
     }
+
+    @Override
+    public String toString() {
+        return "UsersListFragment";
+    }
 }

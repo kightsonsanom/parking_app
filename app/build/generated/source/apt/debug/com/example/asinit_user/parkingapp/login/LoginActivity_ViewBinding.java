@@ -16,9 +16,9 @@ import java.lang.Override;
 public class LoginActivity_ViewBinding implements Unbinder {
   private LoginActivity target;
 
-  private View view2131230830;
+  private View view2131230829;
 
-  private View view2131230865;
+  private View view2131230864;
 
   @UiThread
   public LoginActivity_ViewBinding(LoginActivity target) {
@@ -32,7 +32,7 @@ public class LoginActivity_ViewBinding implements Unbinder {
     View view;
     view = Utils.findRequiredView(source, R.id.login_button, "field 'loginButton' and method 'onViewClicked'");
     target.loginButton = Utils.castView(view, R.id.login_button, "field 'loginButton'", Button.class);
-    view2131230830 = view;
+    view2131230829 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -42,7 +42,7 @@ public class LoginActivity_ViewBinding implements Unbinder {
     target.loginCheckbox = Utils.findRequiredViewAsType(source, R.id.login_checkbox, "field 'loginCheckbox'", CheckBox.class);
     view = Utils.findRequiredView(source, R.id.register_button, "field 'registerButton' and method 'onViewClicked'");
     target.registerButton = Utils.castView(view, R.id.register_button, "field 'registerButton'", Button.class);
-    view2131230865 = view;
+    view2131230864 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -62,9 +62,9 @@ public class LoginActivity_ViewBinding implements Unbinder {
     target.loginCheckbox = null;
     target.registerButton = null;
 
-    view2131230830.setOnClickListener(null);
-    view2131230830 = null;
-    view2131230865.setOnClickListener(null);
-    view2131230865 = null;
+    view2131230829.setOnClickListener(null);
+    view2131230829 = null;
+    view2131230864.setOnClickListener(null);
+    view2131230864 = null;
   }
 }

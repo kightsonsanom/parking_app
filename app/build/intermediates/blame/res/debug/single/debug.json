@@ -140,10 +140,6 @@
         "source": "C:\\Users\\Asinit-User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d61e6922c7e7913d645ea78b6568c842\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "D:\\Projekty\\ParkingApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_main.xml.flat",
-        "source": "D:\\Projekty\\ParkingApp\\app\\src\\main\\res\\layout\\fragment_main.xml"
-    },
-    {
         "merged": "D:\\Projekty\\ParkingApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action_tombstone.xml.flat",
         "source": "C:\\Users\\Asinit-User\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\add6c04ee4172b0e3698c5ee181ac937\\res\\layout-v21\\notification_action_tombstone.xml"
     },

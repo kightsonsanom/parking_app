@@ -25,7 +25,7 @@ public class MainActivity_ViewBinding implements Unbinder {
     this.target = target;
 
     target.toolbar = Utils.findRequiredViewAsType(source, R.id.toolbar, "field 'toolbar'", Toolbar.class);
-    target.container = Utils.findRequiredViewAsType(source, R.id.container, "field 'container'", ViewPager.class);
+    target.viewPager = Utils.findRequiredViewAsType(source, R.id.view_pager, "field 'viewPager'", ViewPager.class);
   }
 
   @Override
@@ -36,6 +36,6 @@ public class MainActivity_ViewBinding implements Unbinder {
     this.target = null;
 
     target.toolbar = null;
-    target.container = null;
+    target.viewPager = null;
   }
 }

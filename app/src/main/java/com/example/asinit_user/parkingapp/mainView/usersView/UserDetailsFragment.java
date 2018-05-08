@@ -57,6 +57,14 @@ public class UserDetailsFragment extends Fragment {
     Unbinder unbinder;
     private User user;
 
+    public static UserDetailsFragment newInstance(User user) {
+        Bundle args = new Bundle();
+        args.putParcelable("user", user);
+        UserDetailsFragment fragment = new UserDetailsFragment();
+        fragment.setArguments(args);
+        return fragment;
+    }
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -112,5 +120,8 @@ public class UserDetailsFragment extends Fragment {
         }
     }
 
-
+    @Override
+    public String toString() {
+        return "UserDetailsFragment";
+    }
 }
