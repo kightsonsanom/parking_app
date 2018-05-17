@@ -9,6 +9,8 @@ import com.example.asinit_user.parkingapp.repository.Repository;
 import java.util.ArrayList;
 import java.util.List;
 
+import timber.log.Timber;
+
 public class UsersListPresenter {
 
     private Repository repository;
@@ -20,13 +22,28 @@ public class UsersListPresenter {
 
 
     public List<String> getUnregisteredUserNames() {
-        userList = repository.getUnregisteredUsers();
+        Timber.d("getUnregisteredUserNames");
+        userList = repository.getUserList();
         List<String> userNames = new ArrayList<>();
 
         for (User user : userList) {
-            userNames.add(user.getUsername());
+            if (!user.isRegistered()) {
+                userNames.add(user.getUsername());
+            }
         }
+        return userNames;
+    }
 
+    public List<String> getRegisteredUserNames() {
+        Timber.d("getRegisteredUserNames");
+        userList = repository.getUserList();
+        List<String> userNames = new ArrayList<>();
+
+        for (User user : userList) {
+            if (user.isRegistered()) {
+                userNames.add(user.getUsername());
+            }
+        }
         return userNames;
     }
 

@@ -1,6 +1,7 @@
 package com.example.asinit_user.parkingapp.mainView;
 
 import android.os.Bundle;
+import android.os.PersistableBundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity implements HasSupportFragmen
     private SectionsPagerAdapter mSectionsPagerAdapter;
     private int pagerPosition;
     private Fragment userFragment;
+    private String userFragmentString;
 
 
     @Inject
@@ -48,6 +50,12 @@ public class MainActivity extends AppCompatActivity implements HasSupportFragmen
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
+
+        if (savedInstanceState!=null){
+            pagerPosition = savedInstanceState.getInt("pagerPosition");
+            userFragmentString = savedInstanceState.getString("userFragmentString");
+            Timber.d("userFragmentString from savedInstanceState = " + userFragmentString );
+        }
 
         setSupportActionBar(toolbar);
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
@@ -75,7 +83,8 @@ public class MainActivity extends AppCompatActivity implements HasSupportFragmen
 
     @Override
     public void onBackPressed() {
-        if (pagerPosition == 1 && userFragment.toString().equals("UserDetailsFragment")) {
+        Timber.d("pagerPostion = " + pagerPosition + "userFragmentString = " + userFragmentString);
+        if (pagerPosition == 1 && userFragmentString.equals("UserDetailsFragment")) {
             userFragment = new UsersListFragment();
             mSectionsPagerAdapter.notifyDataSetChanged();
         } else {
@@ -108,7 +117,16 @@ public class MainActivity extends AppCompatActivity implements HasSupportFragmen
     public void enterDetailFragment(User user) {
         Timber.d("enterDetailFragment from MainActivity");
         userFragment = UserDetailsFragment.newInstance(user);
+        userFragmentString = "UserDetailFragment";
         mSectionsPagerAdapter.notifyDataSetChanged();
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle outState, PersistableBundle outPersistentState) {
+        outState.putInt("pagerPosition", pagerPosition);
+        Timber.d("userFragmentString in onSaveInstanceState = " + userFragmentString);
+        outState.putString("userFragmentString", userFragmentString);
+        super.onSaveInstanceState(outState, outPersistentState);
     }
 
     public class SectionsPagerAdapter extends FragmentStatePagerAdapter {

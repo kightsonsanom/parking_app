@@ -26,6 +26,9 @@ public class ServerMock {
         userList.add(new User("Adam Kowalski", "kowal123","Adam", "Kowalski", "adamkowalski@gmail.com", "FZ456A"));
         userList.add(new User("Artur Nowak", "artur123","Artur", "Nowak", "arturnowak@gmail.com", "FZGS345A"));
         userList.add(new User("Wojtek Rafał", "wojtek123","Wojtek", "Rafał", "wojtekrafal@gmail.com", "FZ9034UJ"));
+
+        userList.add(new User("Andrzej Artur", "andrzej123","Wojtek", "Rafał", "wojtekrafal@gmail.com", "FZ9034UJ",true));
+        userList.add(new User("Wojtek Paweł", "wojtek123","Wojtek", "Rafał", "wojtekrafal@gmail.com", "FZ9034UJ",true));
     }
 
     public List<User> getUserList() {

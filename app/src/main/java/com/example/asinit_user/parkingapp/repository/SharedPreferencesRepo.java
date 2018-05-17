@@ -33,6 +33,6 @@ public class SharedPreferencesRepo {
     }
 
     public void persistAuthState(AuthState authState) {
-        editor.putString(AUTH_STATE, authState.jsonSerializeString()).commit();
+        editor.putString(AUTH_STATE, authState.toJsonString()).commit();
     }
 }

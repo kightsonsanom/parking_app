@@ -3,9 +3,8 @@ package com.example.asinit_user.parkingapp.di;
 import android.app.Application;
 
 import com.example.asinit_user.parkingapp.di.scopes.LoginActivityScope;
-import com.example.asinit_user.parkingapp.login.LoginPresenter;
+import com.example.asinit_user.parkingapp.LoginPresenter;
 import com.example.asinit_user.parkingapp.repository.Repository;
-import com.example.asinit_user.parkingapp.repository.SharedPreferencesRepo;
 
 import dagger.Module;
 import dagger.Provides;

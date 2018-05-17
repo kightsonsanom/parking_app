@@ -6,7 +6,6 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.asinit_user.parkingapp.R;
@@ -16,7 +15,6 @@ import javax.inject.Inject;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import butterknife.OnClick;
 import butterknife.Unbinder;
 import dagger.android.support.AndroidSupportInjection;
 import timber.log.Timber;
@@ -51,10 +49,12 @@ public class UserDetailsFragment extends Fragment {
     @BindView(R.id.platenr_text)
     TextView platenrText;
     @BindView(R.id.accept_user)
-    Button acceptUser;
+    TextView acceptUser;
     @BindView(R.id.deny_user)
-    Button denyUser;
+    TextView denyUser;
     Unbinder unbinder;
+
+
     private User user;
 
     public static UserDetailsFragment newInstance(User user) {
@@ -108,17 +108,17 @@ public class UserDetailsFragment extends Fragment {
         unbinder.unbind();
     }
 
-    @OnClick({R.id.accept_user, R.id.deny_user})
-    public void onViewClicked(View view) {
-        switch (view.getId()) {
-            case R.id.accept_user:
-                userDetailsPresenter.updateUser(user);
-                break;
-            case R.id.deny_user:
-                userDetailsPresenter.deleteUser(user);
-                break;
-        }
-    }
+//    @OnClick({R.id.accept_user, R.id.deny_user})
+//    public void onViewClicked(View view) {
+//        switch (view.getId()) {
+//            case R.id.accept_user:
+//                userDetailsPresenter.updateUser(user);
+//                break;
+//            case R.id.deny_user:
+//                userDetailsPresenter.deleteUser(user);
+//                break;
+//        }
+//    }
 
     @Override
     public String toString() {

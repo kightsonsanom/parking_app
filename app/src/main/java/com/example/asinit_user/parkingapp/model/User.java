@@ -14,6 +14,7 @@ public class User implements Parcelable {
     private String surname;
     private String email;
     private String platenr;
+    private boolean isRegistered;
 
     public User() {
         this.id = UUID.randomUUID().getMostSignificantBits() & Long.MAX_VALUE;
@@ -27,6 +28,25 @@ public class User implements Parcelable {
         this.surname = surname;
         this.email = email;
         this.platenr = platenr;
+        this.isRegistered = false;
+    }
+
+    public User(String username, String password, String firstname, String surname, String email, String platenr, boolean isRegistered) {
+        this.username = username;
+        this.password = password;
+        this.firstname = firstname;
+        this.surname = surname;
+        this.email = email;
+        this.platenr = platenr;
+        this.isRegistered = isRegistered;
+    }
+
+    public boolean isRegistered() {
+        return isRegistered;
+    }
+
+    public void setRegistered(boolean registered) {
+        isRegistered = registered;
     }
 
     public long getId() {
@@ -85,6 +105,7 @@ public class User implements Parcelable {
         this.platenr = platenr;
     }
 
+
     @Override
     public int describeContents() {
         return 0;
@@ -99,6 +120,7 @@ public class User implements Parcelable {
         dest.writeString(this.surname);
         dest.writeString(this.email);
         dest.writeString(this.platenr);
+        dest.writeByte(this.isRegistered ? (byte) 1 : (byte) 0);
     }
 
     protected User(Parcel in) {
@@ -109,9 +131,10 @@ public class User implements Parcelable {
         this.surname = in.readString();
         this.email = in.readString();
         this.platenr = in.readString();
+        this.isRegistered = in.readByte() != 0;
     }
 
-    public static final Parcelable.Creator<User> CREATOR = new Parcelable.Creator<User>() {
+    public static final Creator<User> CREATOR = new Creator<User>() {
         @Override
         public User createFromParcel(Parcel source) {
             return new User(source);

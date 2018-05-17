@@ -74,7 +74,6 @@ public class RegisterActivity extends AppCompatActivity implements RegisterActiv
             User user = new User(username, password, firstname,surname,email,platenr);
             registerPresenter.sendRegisterData(user);
         }
-
     }
 
     @Override

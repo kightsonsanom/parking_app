@@ -77,7 +77,7 @@ public class Repository {
         return serverMock.getParkingSlots();
     }
 
-    public List<User> getUnregisteredUsers() {
+    public List<User> getUserList() {
 
 //        Call call = parkingApi.getUsers();
 //
