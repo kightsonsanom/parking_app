@@ -117,16 +117,16 @@ public class MainActivity extends AppCompatActivity implements HasSupportFragmen
     public void enterDetailFragment(User user) {
         Timber.d("enterDetailFragment from MainActivity");
         userFragment = UserDetailsFragment.newInstance(user);
-        userFragmentString = "UserDetailFragment";
+        userFragmentString = "UserDetailsFragment";
         mSectionsPagerAdapter.notifyDataSetChanged();
     }
 
     @Override
-    public void onSaveInstanceState(Bundle outState, PersistableBundle outPersistentState) {
+    public void onSaveInstanceState(Bundle outState) {
         outState.putInt("pagerPosition", pagerPosition);
         Timber.d("userFragmentString in onSaveInstanceState = " + userFragmentString);
         outState.putString("userFragmentString", userFragmentString);
-        super.onSaveInstanceState(outState, outPersistentState);
+        super.onSaveInstanceState(outState);
     }
 
     public class SectionsPagerAdapter extends FragmentStatePagerAdapter {

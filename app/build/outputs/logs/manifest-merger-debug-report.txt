@@ -108,10 +108,10 @@ ADDED from D:\Projekty\ParkingApp\app\src\main\AndroidManifest.xml:15:9-18:68
 		ADDED from D:\Projekty\ParkingApp\app\src\main\AndroidManifest.xml:18:13-56
 	android:name
 		ADDED from D:\Projekty\ParkingApp\app\src\main\AndroidManifest.xml:16:13-50
-activity#com.example.asinit_user.parkingapp.LoginActivity
+activity#com.example.asinit_user.parkingapp.login.LoginActivity
 ADDED from D:\Projekty\ParkingApp\app\src\main\AndroidManifest.xml:19:9-28:20
 	android:name
-		ADDED from D:\Projekty\ParkingApp\app\src\main\AndroidManifest.xml:19:19-48
+		ADDED from D:\Projekty\ParkingApp\app\src\main\AndroidManifest.xml:19:19-54
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from D:\Projekty\ParkingApp\app\src\main\AndroidManifest.xml:20:13-23:29
 action#android.intent.action.MAIN
