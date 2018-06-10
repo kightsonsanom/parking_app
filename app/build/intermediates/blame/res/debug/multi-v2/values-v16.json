@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Projekty\\ParkingApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "C:\\Users\\Ciastek\\StudioProjects\\parking\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Asinit-User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d61e6922c7e7913d645ea78b6568c842\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Ciastek\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\7f4bd2d1c0822f3c9411854bab6d5b7c\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Asinit-User\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\add6c04ee4172b0e3698c5ee181ac937\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Ciastek\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\9e3e606723a9f65e2e60bb965e3f18c0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

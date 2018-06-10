@@ -18,7 +18,7 @@ import java.lang.Override;
 public class RegisterActivity_ViewBinding implements Unbinder {
   private RegisterActivity target;
 
-  private View view2131230864;
+  private View view2131361937;
 
   @UiThread
   public RegisterActivity_ViewBinding(RegisterActivity target) {
@@ -36,7 +36,7 @@ public class RegisterActivity_ViewBinding implements Unbinder {
     target.adminCheckbox = Utils.findRequiredViewAsType(source, R.id.admin_checkbox, "field 'adminCheckbox'", CheckBox.class);
     view = Utils.findRequiredView(source, R.id.register_button, "field 'registerButton' and method 'onViewClicked'");
     target.registerButton = Utils.castView(view, R.id.register_button, "field 'registerButton'", Button.class);
-    view2131230864 = view;
+    view2131361937 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -68,7 +68,7 @@ public class RegisterActivity_ViewBinding implements Unbinder {
     target.emailInputLayout = null;
     target.platenrInputLayout = null;
 
-    view2131230864.setOnClickListener(null);
-    view2131230864 = null;
+    view2131361937.setOnClickListener(null);
+    view2131361937 = null;
   }
 }

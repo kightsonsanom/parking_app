@@ -6,10 +6,10 @@ import android.net.Uri;
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
 
-import com.example.asinit_user.parkingapp.login.LoginCallback;
 import com.example.asinit_user.parkingapp.repository.Repository;
 
 import net.openid.appauth.AuthState;
+import net.openid.appauth.AuthorizationException;
 import net.openid.appauth.AuthorizationRequest;
 import net.openid.appauth.AuthorizationServiceConfiguration;
 
@@ -18,6 +18,7 @@ import org.json.JSONException;
 import javax.inject.Inject;
 
 import timber.log.Timber;
+
 
 public class LoginPresenter {
 
@@ -48,7 +49,6 @@ public class LoginPresenter {
         );
 
         String clientId = "111410532205-8n23r19d1m9pltrv4i3s6jjs5mu9j1dk.apps.googleusercontent.com";
-//        String clientId = "511828570984-fuprh0cm7665emlne3rnf9pk34kkn86s.apps.googleusercontent.com";
         Uri redirectUri = Uri.parse("com.googleusercontent.apps.111410532205-8n23r19d1m9pltrv4i3s6jjs5mu9j1dk:/oauth2redirect");
         AuthorizationRequest.Builder builder = new AuthorizationRequest.Builder(
                 serviceConfiguration,
@@ -67,26 +67,14 @@ public class LoginPresenter {
         if (mAuthState != null && mAuthState.isAuthorized()) {
             loginCallback.startMainActivity();
         }
-//            if (mMakeApiCall.getVisibility() == View.GONE) {
-//                mMakeApiCall.setVisibility(View.VISIBLE);
-//                mMakeApiCall.setOnClickListener(new MakeApiCallListener(this, mAuthState, new AuthorizationService(this)));
-//            }
-//            if (mSignOut.getVisibility() == View.GONE) {
-//                mSignOut.setVisibility(View.VISIBLE);
-//                mSignOut.setOnClickListener(new SignOutListener(this));
-//            }
-//        } else {
-//            mMakeApiCall.setVisibility(View.GONE);
-//            mSignOut.setVisibility(View.GONE);
-//        }
-    }
 
+    }
 
 
     @Nullable
     private AuthState restoreAuthState() {
         String jsonString = repository.getAuthState();
-        Timber.d("jsonString = " + jsonString);
+        Timber.d("get auth state = " + jsonString);
         if (!TextUtils.isEmpty(jsonString)) {
             try {
                 return AuthState.fromJson(jsonString);

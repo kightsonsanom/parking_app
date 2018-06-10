@@ -4,24 +4,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center">
-
+    android:gravity="center"
+    android:scaleType="centerCrop">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Liczba wolnych miejsc parkingowych"
-        android:textSize="30sp"
-        android:gravity="center_horizontal"/>
+        android:gravity="center_horizontal"
+        android:textColor="#F7B700"
+        android:text="WOLNE MIEJSCA"
+        android:textStyle="bold"
+        android:textSize="40sp"/>
 
     <TextView
         android:id="@+id/free_slots_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="40dp"
         android:textSize="30sp"
+        android:textColor="#F7B700"
         android:textStyle="bold"
         android:gravity="center_horizontal"
         />
+
+
 
 
 </LinearLayout>

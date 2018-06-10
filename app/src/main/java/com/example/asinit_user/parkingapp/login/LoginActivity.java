@@ -39,8 +39,6 @@ public class LoginActivity extends AppCompatActivity implements LoginCallback {
 
     @Inject
     LoginPresenter loginPresenter;
-    @BindView(R.id.login_checkbox)
-    CheckBox loginCheckbox;
     @BindView(R.id.register_button)
     Button registerButton;
 
@@ -53,8 +51,6 @@ public class LoginActivity extends AppCompatActivity implements LoginCallback {
         loginPresenter.setLoginCallback(this);
         loginPresenter.enablePostAuthorizationFlows();
 
-
-        Timber.d("onCreate from LoginActivity");
         setContentView(R.layout.login_activity);
         ButterKnife.bind(this);
     }
@@ -62,24 +58,23 @@ public class LoginActivity extends AppCompatActivity implements LoginCallback {
 
     @Override
     protected void onNewIntent(Intent intent) {
-        Timber.d("new intent arrived");
         checkIntent(intent);
     }
 
     private void checkIntent(@Nullable Intent intent) {
-        Timber.d("Check intent method");
         if (intent != null) {
             String action = intent.getAction();
-            Timber.d("action from checkIntent = " + action);
-            switch (action) {
-                case "com.example.asinit_user.parkingapp.HANDLE_AUTHORIZATION_RESPONSE":
-                    if (!intent.hasExtra(USED_INTENT)) {
-                        handleAuthorizationResponse(intent);
-                        intent.putExtra(USED_INTENT, true);
-                    }
-                    break;
-                default:
-                    // do nothing
+            if (action != null) {
+                switch (action) {
+                    case "com.example.asinit_user.parkingapp.HANDLE_AUTHORIZATION_RESPONSE":
+                        if (!intent.hasExtra(USED_INTENT)) {
+                            handleAuthorizationResponse(intent);
+                            intent.putExtra(USED_INTENT, true);
+                        }
+                        break;
+                    default:
+                        // do nothing
+                }
             }
         }
     }
@@ -115,24 +110,20 @@ public class LoginActivity extends AppCompatActivity implements LoginCallback {
     }
 
     public void handleAuthorizationResponse(Intent intent) {
-        Timber.d("handleAuthorizationResponse method");
         AuthorizationResponse response = AuthorizationResponse.fromIntent(intent);
         AuthorizationException error = AuthorizationException.fromIntent(intent);
         final AuthState authState = new AuthState(response, error);
 
         if (response != null) {
-            Timber.d(String.format("Handled Authorization Response %s ", authState.toJsonString()));
             AuthorizationService service = new AuthorizationService(this);
             service.performTokenRequest(response.createTokenExchangeRequest(), new AuthorizationService.TokenResponseCallback() {
                 @Override
                 public void onTokenRequestCompleted(@Nullable TokenResponse tokenResponse, @Nullable AuthorizationException exception) {
                     if (exception != null) {
-                        Timber.d("Token Exchange failed" + exception.toString());
                     } else {
                         if (tokenResponse != null) {
                             authState.update(tokenResponse, exception);
                             loginPresenter.persistAuthState(authState);
-                            Timber.d(String.format("Token Response [ Access Token: %s, ID Token: %s ]", tokenResponse.accessToken, tokenResponse.idToken));
                             loginPresenter.enablePostAuthorizationFlows();
                         }
                     }
@@ -145,11 +136,7 @@ public class LoginActivity extends AppCompatActivity implements LoginCallback {
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.login_button:
-                if (loginCheckbox.isChecked()) {
-                    startMainActivity();
-                } else {
-                    loginPresenter.doAuth();
-                }
+                loginPresenter.doAuth();
                 break;
             case R.id.register_button:
                 startRegisterActivity();

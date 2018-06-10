@@ -1,5 +1,6 @@
 package com.example.asinit_user.parkingapp.mainView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.support.v4.app.Fragment;
@@ -13,10 +14,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.example.asinit_user.parkingapp.R;
+import com.example.asinit_user.parkingapp.login.LoginActivity;
 import com.example.asinit_user.parkingapp.mainView.parkingView.ParkingSlotsFragment;
 import com.example.asinit_user.parkingapp.mainView.usersView.UserDetailsFragment;
 import com.example.asinit_user.parkingapp.mainView.usersView.UsersListFragment;
 import com.example.asinit_user.parkingapp.model.User;
+import com.example.asinit_user.parkingapp.repository.Repository;
 
 import javax.inject.Inject;
 
@@ -35,14 +38,19 @@ public class MainActivity extends AppCompatActivity implements HasSupportFragmen
     @BindView(R.id.view_pager)
     ViewPager viewPager;
 
+
     private SectionsPagerAdapter mSectionsPagerAdapter;
     private int pagerPosition;
     private Fragment userFragment;
     private String userFragmentString;
+    private int userListTabPosition = 0;
 
 
     @Inject
     DispatchingAndroidInjector<Fragment> dispatchingAndroidInjector;
+
+    @Inject
+    Repository repository;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,17 +59,11 @@ public class MainActivity extends AppCompatActivity implements HasSupportFragmen
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
 
-        if (savedInstanceState!=null){
-            pagerPosition = savedInstanceState.getInt("pagerPosition");
-            userFragmentString = savedInstanceState.getString("userFragmentString");
-            Timber.d("userFragmentString from savedInstanceState = " + userFragmentString );
-        }
-
         setSupportActionBar(toolbar);
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
 
         viewPager.setAdapter(mSectionsPagerAdapter);
-        userFragment = new UsersListFragment();
+        userFragment = UsersListFragment.newInstance(userListTabPosition);
 
         viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
@@ -83,9 +85,8 @@ public class MainActivity extends AppCompatActivity implements HasSupportFragmen
 
     @Override
     public void onBackPressed() {
-        Timber.d("pagerPostion = " + pagerPosition + "userFragmentString = " + userFragmentString);
         if (pagerPosition == 1 && userFragmentString.equals("UserDetailsFragment")) {
-            userFragment = new UsersListFragment();
+            userFragment = UsersListFragment.newInstance(userListTabPosition);
             mSectionsPagerAdapter.notifyDataSetChanged();
         } else {
             super.onBackPressed();
@@ -102,8 +103,12 @@ public class MainActivity extends AppCompatActivity implements HasSupportFragmen
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 
-        if (id == R.id.action_settings) {
-            return true;
+        if (id == R.id.logout) {
+            repository.clear();
+            Intent intent = new Intent(this, LoginActivity.class);
+            startActivity(intent);
+
+            this.finish();
         }
 
         return super.onOptionsItemSelected(item);
@@ -114,19 +119,13 @@ public class MainActivity extends AppCompatActivity implements HasSupportFragmen
         return dispatchingAndroidInjector;
     }
 
-    public void enterDetailFragment(User user) {
-        Timber.d("enterDetailFragment from MainActivity");
+
+
+    public void enterDetailFragment(User user, int userListTabPosition) {
+        this.userListTabPosition = userListTabPosition;
         userFragment = UserDetailsFragment.newInstance(user);
         userFragmentString = "UserDetailsFragment";
         mSectionsPagerAdapter.notifyDataSetChanged();
-    }
-
-    @Override
-    public void onSaveInstanceState(Bundle outState) {
-        outState.putInt("pagerPosition", pagerPosition);
-        Timber.d("userFragmentString in onSaveInstanceState = " + userFragmentString);
-        outState.putString("userFragmentString", userFragmentString);
-        super.onSaveInstanceState(outState);
     }
 
     public class SectionsPagerAdapter extends FragmentStatePagerAdapter {
@@ -137,13 +136,10 @@ public class MainActivity extends AppCompatActivity implements HasSupportFragmen
 
         @Override
         public Fragment getItem(int position) {
-            Timber.d("get item method");
             switch (position) {
                 case 0:
-                    Timber.d("returning parkingfragment");
                     return new ParkingSlotsFragment();
                 case 1:
-                    Timber.d("returning user Fragment = " + userFragment.toString());
                     return userFragment;
                 default:
                     return new ParkingSlotsFragment();
@@ -152,7 +148,6 @@ public class MainActivity extends AppCompatActivity implements HasSupportFragmen
 
         @Override
         public int getItemPosition(Object object) {
-            Timber.d("getitemposition from pageradapter");
             return POSITION_NONE;
         }
 

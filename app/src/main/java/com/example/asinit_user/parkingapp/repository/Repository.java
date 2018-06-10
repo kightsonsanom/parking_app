@@ -84,7 +84,7 @@ public class Repository {
 //        call.enqueue(new Callback() {
 //            @Override
 //            public void onResponse(Call call, Response response) {
-//                userListCallback.setParkingSlots();
+//                userListCallback.setUserList();
 //            }
 //
 //            @Override
@@ -98,11 +98,43 @@ public class Repository {
 
     public void updateUser(User user) {
 
+//        Call call = parkingApi.updateUser();
+//
+//        call.enqueue(new Callback() {
+//            @Override
+//            public void onResponse(Call call, Response response) {
+//                userListCallback.userUpdated();
+//            }
+//
+//            @Override
+//            public void onFailure(Call call, Throwable t) {
+//                userListCallback.setConnectionError();
+//            }
+//        });
+
+        serverMock.updateUserStatus(user.getId(), true);
 
     }
 
     public void deleteUser(User user) {
+//        Call call = parkingApi.deleteUser(user.getId());
+//
+//        call.enqueue(new Callback() {
+//            @Override
+//            public void onResponse(Call call, Response response) {
+//                userListCallback.setParkingSlots();
+//            }
+//
+//            @Override
+//            public void onFailure(Call call, Throwable t) {
+//                userListCallback.setConnectionError();
+//            }
+//        });
 
+        serverMock.deleteUser(user.getId());
+    }
 
+    public void clear() {
+        sharedPreferencesRepo.clear();
     }
 }

@@ -327,6 +327,8 @@ public final class DaggerAppComponent implements AppComponent {
     private MainActivity injectMainActivity(MainActivity instance) {
       MainActivity_MembersInjector.injectDispatchingAndroidInjector(
           instance, getDispatchingAndroidInjectorOfFragment());
+      MainActivity_MembersInjector.injectRepository(
+          instance, DaggerAppComponent.this.provideRepositoryProvider.get());
       return instance;
     }
 

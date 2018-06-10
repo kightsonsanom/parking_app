@@ -1,6 +1,5 @@
 package com.example.asinit_user.parkingapp;
 
-
 import android.app.Activity;
 import android.app.Application;
 

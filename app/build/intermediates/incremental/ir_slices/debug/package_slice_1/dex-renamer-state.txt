@@ -1,4 +1,4 @@
-#Thu May 17 08:58:35 CEST 2018
-base.0=D\:\\Projekty\\ParkingApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+#Sun Jun 10 20:10:12 CEST 2018
+base.0=C\:\\Users\\Ciastek\\StudioProjects\\parking\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
 path.0=classes.dex
 renamed.0=classes.dex

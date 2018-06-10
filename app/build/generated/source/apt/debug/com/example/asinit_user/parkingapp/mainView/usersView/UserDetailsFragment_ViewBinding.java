@@ -4,8 +4,10 @@ package com.example.asinit_user.parkingapp.mainView.usersView;
 import android.support.annotation.CallSuper;
 import android.support.annotation.UiThread;
 import android.view.View;
+import android.widget.CheckBox;
 import android.widget.TextView;
 import butterknife.Unbinder;
+import butterknife.internal.DebouncingOnClickListener;
 import butterknife.internal.Utils;
 import com.example.asinit_user.parkingapp.R;
 import java.lang.IllegalStateException;
@@ -14,10 +16,15 @@ import java.lang.Override;
 public class UserDetailsFragment_ViewBinding implements Unbinder {
   private UserDetailsFragment target;
 
+  private View view2131361798;
+
+  private View view2131361849;
+
   @UiThread
-  public UserDetailsFragment_ViewBinding(UserDetailsFragment target, View source) {
+  public UserDetailsFragment_ViewBinding(final UserDetailsFragment target, View source) {
     this.target = target;
 
+    View view;
     target.usernameLabel = Utils.findRequiredViewAsType(source, R.id.username_label, "field 'usernameLabel'", TextView.class);
     target.usernameText = Utils.findRequiredViewAsType(source, R.id.username_text, "field 'usernameText'", TextView.class);
     target.passwordLabel = Utils.findRequiredViewAsType(source, R.id.password_label, "field 'passwordLabel'", TextView.class);
@@ -30,8 +37,26 @@ public class UserDetailsFragment_ViewBinding implements Unbinder {
     target.emailText = Utils.findRequiredViewAsType(source, R.id.email_text, "field 'emailText'", TextView.class);
     target.platenrLabel = Utils.findRequiredViewAsType(source, R.id.platenr_label, "field 'platenrLabel'", TextView.class);
     target.platenrText = Utils.findRequiredViewAsType(source, R.id.platenr_text, "field 'platenrText'", TextView.class);
-    target.acceptUser = Utils.findRequiredViewAsType(source, R.id.accept_user, "field 'acceptUser'", TextView.class);
-    target.denyUser = Utils.findRequiredViewAsType(source, R.id.deny_user, "field 'denyUser'", TextView.class);
+    view = Utils.findRequiredView(source, R.id.accept_user, "field 'acceptUser' and method 'onViewClicked'");
+    target.acceptUser = Utils.castView(view, R.id.accept_user, "field 'acceptUser'", TextView.class);
+    view2131361798 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.deny_user, "field 'denyUser' and method 'onViewClicked'");
+    target.denyUser = Utils.castView(view, R.id.deny_user, "field 'denyUser'", TextView.class);
+    view2131361849 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    target.isAdminTextView = Utils.findRequiredViewAsType(source, R.id.isAdminTextView, "field 'isAdminTextView'", TextView.class);
+    target.isAdminCheckbox = Utils.findRequiredViewAsType(source, R.id.isAdminCheckbox, "field 'isAdminCheckbox'", CheckBox.class);
   }
 
   @Override
@@ -55,5 +80,12 @@ public class UserDetailsFragment_ViewBinding implements Unbinder {
     target.platenrText = null;
     target.acceptUser = null;
     target.denyUser = null;
+    target.isAdminTextView = null;
+    target.isAdminCheckbox = null;
+
+    view2131361798.setOnClickListener(null);
+    view2131361798 = null;
+    view2131361849.setOnClickListener(null);
+    view2131361849 = null;
   }
 }

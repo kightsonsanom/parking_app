@@ -23,8 +23,11 @@
         <activity
             android:name="com.example.asinit_user.parkingapp.mainView.MainActivity"
             android:label="@string/app_name"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.example.asinit_user.parkingapp.login.LoginActivity" >
+        <activity
+            android:name="com.example.asinit_user.parkingapp.login.LoginActivity"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -46,8 +49,13 @@
                 <data android:scheme="com.googleusercontent.apps.111410532205-8n23r19d1m9pltrv4i3s6jjs5mu9j1dk" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.asinit_user.parkingapp.registerView.RegisterActivity" />
+        <activity
+            android:name="com.example.asinit_user.parkingapp.registerView.RegisterActivity"
+            android:screenOrientation="portrait" />
 
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
         <meta-data
             android:name="android.support.VERSION"
             android:value="26.1.0" />

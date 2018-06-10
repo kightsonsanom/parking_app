@@ -6,6 +6,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
+import timber.log.Timber;
+
 public class ServerMock {
 
 
@@ -43,5 +45,33 @@ public class ServerMock {
         userList.add(user);
     }
 
+    public void updateUserStatus(long userID, boolean status){
+        int userPosition = getPositionForUser(userID);
+        if (userPosition != -1) {
+            userList.get(userPosition).setRegistered(status);
+            Timber.d("updating user" + userList.get(userPosition));
+        } else {
+            Timber.d("No user with such id");
+        }
+    }
 
+    private int getPositionForUser(long userID) {
+        int userPosition = -1;
+        for (int i = 0; i < userList.size(); i++) {
+            if (userID == userList.get(i).getId()){
+                userPosition = i;
+            }
+        }
+        return userPosition;
+    }
+
+
+    public void deleteUser(long id) {
+        int userPosition = getPositionForUser(id);
+        if (userPosition != -1) {
+            userList.remove(userPosition);
+        } else {
+            Timber.d("No user with such id");
+        }
+    }
 }

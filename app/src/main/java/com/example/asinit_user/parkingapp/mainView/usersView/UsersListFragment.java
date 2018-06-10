@@ -1,6 +1,8 @@
 package com.example.asinit_user.parkingapp.mainView.usersView;
 
+import android.graphics.Color;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
@@ -10,8 +12,11 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import com.example.asinit_user.parkingapp.R;
+
+import org.w3c.dom.Text;
 
 import javax.inject.Inject;
 
@@ -20,7 +25,6 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import butterknife.Unbinder;
 import dagger.android.support.AndroidSupportInjection;
-import timber.log.Timber;
 
 public class UsersListFragment extends Fragment {
 
@@ -33,12 +37,23 @@ public class UsersListFragment extends Fragment {
     @BindView(R.id.tab_layout)
     TabLayout tabLayout;
     private ArrayAdapter<String> itemsAdapter;
+    private int tabPosition;
+
+
+    public static UsersListFragment newInstance(int initialTabPosition) {
+        Bundle args = new Bundle();
+        args.putInt("tabPosition", initialTabPosition);
+        UsersListFragment fragment = new UsersListFragment();
+        fragment.setArguments(args);
+        return fragment;
+    }
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         AndroidSupportInjection.inject(this);
         super.onCreateView(inflater, container, savedInstanceState);
+        tabPosition = getArguments().getInt("tabPosition");
         View view = inflater.inflate(R.layout.users_list_fragment, container, false);
         unbinder = ButterKnife.bind(this, view);
 
@@ -53,12 +68,13 @@ public class UsersListFragment extends Fragment {
         tabLayout.addTab(tabLayout.newTab().setText("Oczekujący"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
+
         tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
-                Timber.d("tab position = " + tab.getPosition());
                 switch (tab.getPosition()) {
                     case 0:
+                        tabPosition = 0;
                         itemsAdapter.clear();
                         itemsAdapter.addAll(usersListPresenter.getRegisteredUserNames());
                         usersListView.setAdapter(itemsAdapter);
@@ -66,6 +82,7 @@ public class UsersListFragment extends Fragment {
                         break;
 
                     case 1:
+                        tabPosition = 1;
                         itemsAdapter.clear();
                         itemsAdapter.addAll(usersListPresenter.getUnregisteredUserNames());
                         usersListView.setAdapter(itemsAdapter);
@@ -88,17 +105,18 @@ public class UsersListFragment extends Fragment {
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        itemsAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1);
-        int tabPosition;
+        itemsAdapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1){
+            @NonNull
+            @Override
+            public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
+                TextView textView = (TextView) super.getView(position, convertView, parent);
+                textView.setTextColor(Color.parseColor("#F7B700"));
+                return textView;
+            }
+        };
 
-        if (savedInstanceState != null) {
-            tabPosition = savedInstanceState.getInt("tabPosition");
-            Timber.d("getting tab position from savedInstanceState = " + tabPosition);
-        } else {
-            tabPosition = 0;
-        }
-
-        tabLayout.getTabAt(tabPosition).select();
+        TabLayout.Tab tab = tabLayout.getTabAt(tabPosition);
+        tab.select();
 
         if (tabPosition == 0){
             itemsAdapter.addAll(usersListPresenter.getRegisteredUserNames());
@@ -111,13 +129,7 @@ public class UsersListFragment extends Fragment {
     }
 
     private void setOnListClick() {
-        usersListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Timber.d("clicked on " + position + " item");
-                usersListPresenter.getUserDetailFragment(getActivity(), position);
-            }
-        });
+        usersListView.setOnItemClickListener((parent, view, position, id) -> usersListPresenter.getUserDetailFragment(getActivity(), position, tabPosition));
     }
 
     @Override
@@ -131,10 +143,4 @@ public class UsersListFragment extends Fragment {
         return "UsersListFragment";
     }
 
-    @Override
-    public void onSaveInstanceState(Bundle outState) {
-        outState.putInt("tabPosition", tabLayout.getSelectedTabPosition());
-        Timber.d("saving tab position = " + tabLayout.getSelectedTabPosition());
-        super.onSaveInstanceState(outState);
-    }
 }

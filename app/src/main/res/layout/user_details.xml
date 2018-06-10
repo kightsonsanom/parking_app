@@ -2,202 +2,201 @@
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:weightSum="1">
 
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fillViewport="true">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
 
-
-        <LinearLayout
+        <TextView
+            android:id="@+id/username_label"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:paddingBottom="10dp"
-            android:paddingLeft="10dp"
-            android:weightSum="1">
+            android:layout_height="wrap_content"
+            android:text="Nazwa użytkownika"
+            android:textColor="#F7B700"
+            android:textSize="10sp" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:orientation="vertical">
+        <TextView
+            android:id="@+id/username_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tomek"
+            android:textColor="#F7B700"
+            android:textSize="20sp" />
 
-                <TextView
-                    android:id="@+id/username_label"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Nazwa użytkownika"
-                    android:textSize="10sp" />
+    </LinearLayout>
 
-                <TextView
-                    android:id="@+id/username_text"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Tomek"
-                    android:textSize="20sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
 
-            </LinearLayout>
+        <TextView
+            android:id="@+id/password_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hasło"
+            android:textColor="#F7B700"
+            android:textSize="10sp" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:orientation="vertical">
+        <TextView
+            android:id="@+id/password_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="tomek123"
+            android:textColor="#F7B700"
+            android:textSize="20sp" />
 
-                <TextView
-                    android:id="@+id/password_label"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Nazwa użytkownika"
-                    android:textSize="10sp" />
+    </LinearLayout>
 
-                <TextView
-                    android:id="@+id/password_text"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="tomek123"
-                    android:textSize="20sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
 
-            </LinearLayout>
+        <TextView
+            android:id="@+id/firstname_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Imię"
+            android:textColor="#F7B700"
+            android:textSize="13sp" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:orientation="vertical">
+        <TextView
+            android:id="@+id/firstname_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tomek"
+            android:textColor="#F7B700"
+            android:textSize="20sp" />
 
-                <TextView
-                    android:id="@+id/firstname_label"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Nazwa użytkownika"
-                    android:textSize="13sp" />
-
-                <TextView
-                    android:id="@+id/firstname_text"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Tomek"
-                    android:textSize="20sp" />
-
-            </LinearLayout>
+    </LinearLayout>
 
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/lastname_label"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Nazwa użytkownika"
-                    android:textSize="13sp" />
+        <TextView
+            android:id="@+id/lastname_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nazwisko"
+            android:textColor="#F7B700"
+            android:textSize="13sp" />
 
-                <TextView
-                    android:id="@+id/lastname_text"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Tomek"
-                    android:textSize="20sp" />
+        <TextView
+            android:id="@+id/lastname_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tomek"
+            android:textColor="#F7B700"
+            android:textSize="20sp" />
 
-            </LinearLayout>
-
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/email_label"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Email"
-                    android:textSize="10sp" />
-
-                <TextView
-                    android:id="@+id/email_text"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="tomek@gmail.com"
-                    android:textSize="20sp" />
-
-            </LinearLayout>
+    </LinearLayout>
 
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/platenr_label"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Nazwa użytkownika"
-                    android:textSize="10sp" />
+        <TextView
+            android:id="@+id/email_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textColor="#F7B700"
+            android:textSize="10sp" />
 
-                <TextView
-                    android:id="@+id/platenr_text"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="FZ 569234A"
-                    android:textSize="20sp" />
+        <TextView
+            android:id="@+id/email_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="tomek@gmail.com"
+            android:textColor="#F7B700"
+            android:textSize="20sp" />
 
-            </LinearLayout>
+    </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:orientation="horizontal">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="20dp"
-                    android:text="Administrator" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
 
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/platenr_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tablica rejestracyjna"
+            android:textColor="#F7B700"
+            android:textSize="10sp" />
 
-            </LinearLayout>
+        <TextView
+            android:id="@+id/platenr_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FZ 569234A"
+            android:textColor="#F7B700"
+            android:textSize="20sp" />
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:orientation="horizontal">
+    </LinearLayout>
 
-                <Button
-                    android:id="@+id/accept_user"
-                    style="@style/Widget.AppCompat.Button.Colored"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="20dp"
-                    android:text="Zatwierdź" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
 
-                <Button
-                    android:id="@+id/deny_user"
-                    style="@style/Widget.AppCompat.Button.Colored"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Odrzuć" />
+        <TextView
+            android:id="@+id/isAdminTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="Administrator"
+            android:textColor="#F7B700" />
 
-            </LinearLayout>
+        <CheckBox
+            android:id="@+id/isAdminCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#F7B700" />
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="60dp"/>
+    </LinearLayout>
 
-        </LinearLayout>
-    </ScrollView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/accept_user"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="Zatwierdź" />
+
+        <Button
+            android:id="@+id/deny_user"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Odrzuć" />
+
+    </LinearLayout>
 </LinearLayout>

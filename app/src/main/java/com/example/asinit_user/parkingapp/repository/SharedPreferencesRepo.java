@@ -8,7 +8,6 @@ import com.example.asinit_user.parkingapp.R;
 
 import net.openid.appauth.AuthState;
 
-import timber.log.Timber;
 
 public class SharedPreferencesRepo {
 
@@ -23,16 +22,16 @@ public class SharedPreferencesRepo {
         editor = sharedPreferences.edit();
     }
 
-
-    public void click() {
-        Timber.d("cliked on button from shared preferences");
-    }
-
     public String getAuthState(){
         return sharedPreferences.getString(AUTH_STATE, null);
     }
 
     public void persistAuthState(AuthState authState) {
         editor.putString(AUTH_STATE, authState.toJsonString()).commit();
+    }
+
+    public void clear() {
+        editor.clear();
+        editor.commit();
     }
 }

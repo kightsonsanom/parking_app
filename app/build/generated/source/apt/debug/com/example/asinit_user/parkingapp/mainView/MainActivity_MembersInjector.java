@@ -2,6 +2,7 @@
 package com.example.asinit_user.parkingapp.mainView;
 
 import android.support.v4.app.Fragment;
+import com.example.asinit_user.parkingapp.repository.Repository;
 import dagger.MembersInjector;
 import dagger.android.DispatchingAndroidInjector;
 import javax.inject.Provider;
@@ -9,23 +10,33 @@ import javax.inject.Provider;
 public final class MainActivity_MembersInjector implements MembersInjector<MainActivity> {
   private final Provider<DispatchingAndroidInjector<Fragment>> dispatchingAndroidInjectorProvider;
 
+  private final Provider<Repository> repositoryProvider;
+
   public MainActivity_MembersInjector(
-      Provider<DispatchingAndroidInjector<Fragment>> dispatchingAndroidInjectorProvider) {
+      Provider<DispatchingAndroidInjector<Fragment>> dispatchingAndroidInjectorProvider,
+      Provider<Repository> repositoryProvider) {
     this.dispatchingAndroidInjectorProvider = dispatchingAndroidInjectorProvider;
+    this.repositoryProvider = repositoryProvider;
   }
 
   public static MembersInjector<MainActivity> create(
-      Provider<DispatchingAndroidInjector<Fragment>> dispatchingAndroidInjectorProvider) {
-    return new MainActivity_MembersInjector(dispatchingAndroidInjectorProvider);
+      Provider<DispatchingAndroidInjector<Fragment>> dispatchingAndroidInjectorProvider,
+      Provider<Repository> repositoryProvider) {
+    return new MainActivity_MembersInjector(dispatchingAndroidInjectorProvider, repositoryProvider);
   }
 
   @Override
   public void injectMembers(MainActivity instance) {
     injectDispatchingAndroidInjector(instance, dispatchingAndroidInjectorProvider.get());
+    injectRepository(instance, repositoryProvider.get());
   }
 
   public static void injectDispatchingAndroidInjector(
       MainActivity instance, DispatchingAndroidInjector<Fragment> dispatchingAndroidInjector) {
     instance.dispatchingAndroidInjector = dispatchingAndroidInjector;
+  }
+
+  public static void injectRepository(MainActivity instance, Repository repository) {
+    instance.repository = repository;
   }
 }

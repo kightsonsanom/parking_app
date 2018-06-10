@@ -1,5 +1,6 @@
 package com.example.asinit_user.parkingapp.registerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.TextInputEditText;
@@ -10,6 +11,7 @@ import android.widget.CheckBox;
 import android.widget.Toast;
 
 import com.example.asinit_user.parkingapp.R;
+import com.example.asinit_user.parkingapp.login.LoginActivity;
 import com.example.asinit_user.parkingapp.model.User;
 
 import javax.inject.Inject;
@@ -74,6 +76,14 @@ public class RegisterActivity extends AppCompatActivity implements RegisterActiv
             User user = new User(username, password, firstname,surname,email,platenr);
             registerPresenter.sendRegisterData(user);
         }
+    }
+
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(this, LoginActivity.class);
+        startActivity(intent);
+        this.finish();
+        super.onBackPressed();
     }
 
     @Override

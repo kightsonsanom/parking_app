@@ -6,15 +6,19 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CheckBox;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.asinit_user.parkingapp.R;
+import com.example.asinit_user.parkingapp.mainView.MainActivity;
 import com.example.asinit_user.parkingapp.model.User;
 
 import javax.inject.Inject;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 import butterknife.Unbinder;
 import dagger.android.support.AndroidSupportInjection;
 import timber.log.Timber;
@@ -53,6 +57,10 @@ public class UserDetailsFragment extends Fragment {
     @BindView(R.id.deny_user)
     TextView denyUser;
     Unbinder unbinder;
+    @BindView(R.id.isAdminTextView)
+    TextView isAdminTextView;
+    @BindView(R.id.isAdminCheckbox)
+    CheckBox isAdminCheckbox;
 
 
     private User user;
@@ -71,7 +79,6 @@ public class UserDetailsFragment extends Fragment {
         AndroidSupportInjection.inject(this);
         super.onCreateView(inflater, container, savedInstanceState);
         user = getArguments().getParcelable("user");
-        Timber.d("onCreateView from UserDetailsFragment");
 
         View view = inflater.inflate(R.layout.user_details, container, false);
         unbinder = ButterKnife.bind(this, view);
@@ -87,7 +94,6 @@ public class UserDetailsFragment extends Fragment {
     private void initializeFields() {
 
 
-        Timber.d("initializeFields method");
 
         if (user != null) {
             usernameText.setText(user.getUsername());
@@ -100,6 +106,18 @@ public class UserDetailsFragment extends Fragment {
         } else {
             Timber.d("user jest nullem w UserDetailsFragment");
         }
+
+        if (user.isRegistered()) {
+            hideButtonsAndShowAdminInfo();
+        }
+    }
+
+    private void hideButtonsAndShowAdminInfo() {
+        acceptUser.setVisibility(View.GONE);
+        denyUser.setVisibility(View.GONE);
+        isAdminCheckbox.setVisibility(View.GONE);
+        isAdminTextView.setText("Zwykły użytkownik");
+
     }
 
     @Override
@@ -108,17 +126,21 @@ public class UserDetailsFragment extends Fragment {
         unbinder.unbind();
     }
 
-//    @OnClick({R.id.accept_user, R.id.deny_user})
-//    public void onViewClicked(View view) {
-//        switch (view.getId()) {
-//            case R.id.accept_user:
-//                userDetailsPresenter.updateUser(user);
-//                break;
-//            case R.id.deny_user:
-//                userDetailsPresenter.deleteUser(user);
-//                break;
-//        }
-//    }
+    @OnClick({R.id.accept_user, R.id.deny_user})
+    public void onViewClicked(View view) {
+        switch (view.getId()) {
+            case R.id.accept_user:
+                userDetailsPresenter.updateUser(user);
+                Toast.makeText(getActivity(), "Zaktualizowano użytkownika", Toast.LENGTH_SHORT).show();
+                getActivity().onBackPressed();
+                break;
+            case R.id.deny_user:
+                userDetailsPresenter.deleteUser(user);
+                Toast.makeText(getActivity(), "Usunięto użytkownika", Toast.LENGTH_SHORT).show();
+                getActivity().onBackPressed();
+                break;
+        }
+    }
 
     @Override
     public String toString() {
