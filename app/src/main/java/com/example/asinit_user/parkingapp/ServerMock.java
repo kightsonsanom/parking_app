@@ -10,7 +10,6 @@ import timber.log.Timber;
 
 public class ServerMock {
 
-
     private List<User> userList;
     private int parkingSlots;
 
@@ -64,7 +63,6 @@ public class ServerMock {
         }
         return userPosition;
     }
-
 
     public void deleteUser(long id) {
         int userPosition = getPositionForUser(id);

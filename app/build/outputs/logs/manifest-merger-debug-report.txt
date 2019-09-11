@@ -9,26 +9,26 @@ ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.
 INJECTED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:2:1-50:12
 INJECTED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:2:1-50:12
 INJECTED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:2:1-50:12
-MERGED from [com.android.support:design:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\07b32795c0779a35a98956ded09d3941\AndroidManifest.xml:17:1-31:12
-MERGED from [com.google.dagger:dagger-android-support:2.13] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\dagger-android-support-2.13.aar\54598516efe5b124bfb311d5566230ad\AndroidManifest.xml:16:1-19:12
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7f4bd2d1c0822f3c9411854bab6d5b7c\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\3d6a8441cb2d46ba0d7a7e5f86599df2\AndroidManifest.xml:2:1-11:12
-MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\cec14dcc4d7b4cd99cdcf510722d7d10\AndroidManifest.xml:2:1-7:12
-MERGED from [net.openid:appauth:0.2.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\appauth-0.2.0.aar\80dd6cc79accf3097dc461fff4367fb7\AndroidManifest.xml:15:1-26:12
-MERGED from [com.jakewharton.timber:timber:4.6.1] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\timber-4.6.1.aar\a47ed50a2bf79f521d20cd9097aaf5ca\AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.dagger:dagger-android:2.13] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\dagger-android-2.13.aar\e9fc7ca7b5e4d8e79e5094ce9b782699\AndroidManifest.xml:16:1-19:12
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\8a883356bd1b7487fe2c06db6ab5e29e\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:transition:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\ef5ac33ce8bc3a72d4ca2ebd02b8f104\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:customtabs:23.2.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\customtabs-23.2.0.aar\5d3ab3a1cd47586eabaf703e40495eed\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\bdd14be0a8cf9c311810e17ceb2a020d\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\36a1b193b60b6f04a22072c665b4ac28\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\b9d44f79a7997f3c03bd8df70e7b8ff9\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\cd82b66bee315330ea8212952d4e525f\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\794b1406f4485aa39d8e79d65300994c\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\b14cfcd6d331f6b0ab8c2fc548361cc1\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\dbe99fe0cd8d362f5be7b28060fd5276\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\9e3e606723a9f65e2e60bb965e3f18c0\AndroidManifest.xml:17:1-31:12
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\34b34d1d36965fc97bf8926f957e93ce\AndroidManifest.xml:17:1-30:12
+MERGED from [com.android.support:design:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\69c88e53e2271a0b674553de327b9b4c\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.dagger:dagger-android-support:2.13] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\dagger-android-support-2.13.aar\b46b0fe45808d70c9111b1e49d18ca5d\AndroidManifest.xml:16:1-19:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\6041704382786db60f29d51c097af42f\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\7fecb08cdabb4340fdf77a9a50d2d577\AndroidManifest.xml:2:1-11:12
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\8224cea6d47645a27e329f85bcddd972\AndroidManifest.xml:2:1-7:12
+MERGED from [net.openid:appauth:0.2.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\appauth-0.2.0.aar\d6697d9734c3fe82a66c1483ecebcd4e\AndroidManifest.xml:15:1-26:12
+MERGED from [com.jakewharton.timber:timber:4.6.1] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\timber-4.6.1.aar\ec241aec3adde32e581530e1d50e1799\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.dagger:dagger-android:2.13] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\dagger-android-2.13.aar\478167e604d821bf6d9b5e3443a9d070\AndroidManifest.xml:16:1-19:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\84be81405bbafb18e441ab86eab3b16e\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\0396d4d66dfbdebcda302d743eeef6c1\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:customtabs:23.2.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\customtabs-23.2.0.aar\07c13e61c57e45db07d2ae4111ac121e\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\25e7c6f51e564db791e29bb2a5dd07c9\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\4aea01186c30e9f02f3a07da1daa1500\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\19b075d951be1025842420e7eaa728c2\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\be465c9fb8224d5abd773d8bda0f5217\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\4f0d20bcdeeac791f99a2b99172e70aa\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\4e9c9a21c612ca87f65d00d478e8d4a7\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\b5aacf0e5de5d35924fa8641648e64c7\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f6842cb275f765cb1e06caaa8f488450\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\90ad961de905af4a0f475d8eadbbdbe7\AndroidManifest.xml:17:1-30:12
 INJECTED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:2:1-50:12
 INJECTED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:2:1-50:12
 INJECTED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:2:1-50:12
@@ -48,44 +48,44 @@ INJECTED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManife
 		ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:5:5-66
-MERGED from [net.openid:appauth:0.2.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\appauth-0.2.0.aar\80dd6cc79accf3097dc461fff4367fb7\AndroidManifest.xml:24:5-67
-MERGED from [net.openid:appauth:0.2.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\appauth-0.2.0.aar\80dd6cc79accf3097dc461fff4367fb7\AndroidManifest.xml:24:5-67
+MERGED from [net.openid:appauth:0.2.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\appauth-0.2.0.aar\d6697d9734c3fe82a66c1483ecebcd4e\AndroidManifest.xml:24:5-67
+MERGED from [net.openid:appauth:0.2.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\appauth-0.2.0.aar\d6697d9734c3fe82a66c1483ecebcd4e\AndroidManifest.xml:24:5-67
 	android:name
 		ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:5:22-64
 application
 ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:7:5-48:19
-MERGED from [com.android.support:design:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\07b32795c0779a35a98956ded09d3941\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:design:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\07b32795c0779a35a98956ded09d3941\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7f4bd2d1c0822f3c9411854bab6d5b7c\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7f4bd2d1c0822f3c9411854bab6d5b7c\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\3d6a8441cb2d46ba0d7a7e5f86599df2\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\3d6a8441cb2d46ba0d7a7e5f86599df2\AndroidManifest.xml:9:5-20
-MERGED from [com.jakewharton.timber:timber:4.6.1] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\timber-4.6.1.aar\a47ed50a2bf79f521d20cd9097aaf5ca\AndroidManifest.xml:8:5-20
-MERGED from [com.jakewharton.timber:timber:4.6.1] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\timber-4.6.1.aar\a47ed50a2bf79f521d20cd9097aaf5ca\AndroidManifest.xml:8:5-20
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\8a883356bd1b7487fe2c06db6ab5e29e\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\8a883356bd1b7487fe2c06db6ab5e29e\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:transition:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\ef5ac33ce8bc3a72d4ca2ebd02b8f104\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:transition:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\ef5ac33ce8bc3a72d4ca2ebd02b8f104\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:customtabs:23.2.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\customtabs-23.2.0.aar\5d3ab3a1cd47586eabaf703e40495eed\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:customtabs:23.2.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\customtabs-23.2.0.aar\5d3ab3a1cd47586eabaf703e40495eed\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\bdd14be0a8cf9c311810e17ceb2a020d\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\bdd14be0a8cf9c311810e17ceb2a020d\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\36a1b193b60b6f04a22072c665b4ac28\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\36a1b193b60b6f04a22072c665b4ac28\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\b9d44f79a7997f3c03bd8df70e7b8ff9\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\b9d44f79a7997f3c03bd8df70e7b8ff9\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\cd82b66bee315330ea8212952d4e525f\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\cd82b66bee315330ea8212952d4e525f\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\794b1406f4485aa39d8e79d65300994c\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\794b1406f4485aa39d8e79d65300994c\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\b14cfcd6d331f6b0ab8c2fc548361cc1\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\b14cfcd6d331f6b0ab8c2fc548361cc1\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\dbe99fe0cd8d362f5be7b28060fd5276\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\dbe99fe0cd8d362f5be7b28060fd5276\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\9e3e606723a9f65e2e60bb965e3f18c0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\9e3e606723a9f65e2e60bb965e3f18c0\AndroidManifest.xml:25:5-29:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\34b34d1d36965fc97bf8926f957e93ce\AndroidManifest.xml:24:5-28:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\34b34d1d36965fc97bf8926f957e93ce\AndroidManifest.xml:24:5-28:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\69c88e53e2271a0b674553de327b9b4c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\69c88e53e2271a0b674553de327b9b4c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\6041704382786db60f29d51c097af42f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\6041704382786db60f29d51c097af42f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\7fecb08cdabb4340fdf77a9a50d2d577\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\7fecb08cdabb4340fdf77a9a50d2d577\AndroidManifest.xml:9:5-20
+MERGED from [com.jakewharton.timber:timber:4.6.1] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\timber-4.6.1.aar\ec241aec3adde32e581530e1d50e1799\AndroidManifest.xml:8:5-20
+MERGED from [com.jakewharton.timber:timber:4.6.1] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\timber-4.6.1.aar\ec241aec3adde32e581530e1d50e1799\AndroidManifest.xml:8:5-20
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\84be81405bbafb18e441ab86eab3b16e\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\84be81405bbafb18e441ab86eab3b16e\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\0396d4d66dfbdebcda302d743eeef6c1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\0396d4d66dfbdebcda302d743eeef6c1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:customtabs:23.2.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\customtabs-23.2.0.aar\07c13e61c57e45db07d2ae4111ac121e\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:customtabs:23.2.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\customtabs-23.2.0.aar\07c13e61c57e45db07d2ae4111ac121e\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\25e7c6f51e564db791e29bb2a5dd07c9\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\25e7c6f51e564db791e29bb2a5dd07c9\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\4aea01186c30e9f02f3a07da1daa1500\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\4aea01186c30e9f02f3a07da1daa1500\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\19b075d951be1025842420e7eaa728c2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\19b075d951be1025842420e7eaa728c2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\be465c9fb8224d5abd773d8bda0f5217\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\be465c9fb8224d5abd773d8bda0f5217\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\4f0d20bcdeeac791f99a2b99172e70aa\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\4f0d20bcdeeac791f99a2b99172e70aa\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\4e9c9a21c612ca87f65d00d478e8d4a7\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\4e9c9a21c612ca87f65d00d478e8d4a7\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\b5aacf0e5de5d35924fa8641648e64c7\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\b5aacf0e5de5d35924fa8641648e64c7\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f6842cb275f765cb1e06caaa8f488450\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f6842cb275f765cb1e06caaa8f488450\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\90ad961de905af4a0f475d8eadbbdbe7\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\90ad961de905af4a0f475d8eadbbdbe7\AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
 		ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
@@ -140,7 +140,7 @@ activity#net.openid.appauth.RedirectUriReceiverActivity
 ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:32:9-41:20
 	android:name
 		ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:32:19-80
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:com.googleusercontent.apps.111410532205-8n23r19d1m9pltrv4i3s6jjs5mu9j1dk
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:http://10.0.2.2:8081/abc
 ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:33:13-40:29
 action#android.intent.action.VIEW
 ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:34:17-69
@@ -166,50 +166,50 @@ uses-sdk
 INJECTED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:design:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\07b32795c0779a35a98956ded09d3941\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:design:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\07b32795c0779a35a98956ded09d3941\AndroidManifest.xml:21:5-23:62
-MERGED from [com.google.dagger:dagger-android-support:2.13] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\dagger-android-support-2.13.aar\54598516efe5b124bfb311d5566230ad\AndroidManifest.xml:18:3-42
-MERGED from [com.google.dagger:dagger-android-support:2.13] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\dagger-android-support-2.13.aar\54598516efe5b124bfb311d5566230ad\AndroidManifest.xml:18:3-42
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7f4bd2d1c0822f3c9411854bab6d5b7c\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7f4bd2d1c0822f3c9411854bab6d5b7c\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\3d6a8441cb2d46ba0d7a7e5f86599df2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\3d6a8441cb2d46ba0d7a7e5f86599df2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\cec14dcc4d7b4cd99cdcf510722d7d10\AndroidManifest.xml:5:5-43
-MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\cec14dcc4d7b4cd99cdcf510722d7d10\AndroidManifest.xml:5:5-43
-MERGED from [net.openid:appauth:0.2.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\appauth-0.2.0.aar\80dd6cc79accf3097dc461fff4367fb7\AndroidManifest.xml:20:5-22:41
-MERGED from [net.openid:appauth:0.2.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\appauth-0.2.0.aar\80dd6cc79accf3097dc461fff4367fb7\AndroidManifest.xml:20:5-22:41
-MERGED from [com.jakewharton.timber:timber:4.6.1] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\timber-4.6.1.aar\a47ed50a2bf79f521d20cd9097aaf5ca\AndroidManifest.xml:6:5-43
-MERGED from [com.jakewharton.timber:timber:4.6.1] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\timber-4.6.1.aar\a47ed50a2bf79f521d20cd9097aaf5ca\AndroidManifest.xml:6:5-43
-MERGED from [com.google.dagger:dagger-android:2.13] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\dagger-android-2.13.aar\e9fc7ca7b5e4d8e79e5094ce9b782699\AndroidManifest.xml:18:3-42
-MERGED from [com.google.dagger:dagger-android:2.13] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\dagger-android-2.13.aar\e9fc7ca7b5e4d8e79e5094ce9b782699\AndroidManifest.xml:18:3-42
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\8a883356bd1b7487fe2c06db6ab5e29e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\8a883356bd1b7487fe2c06db6ab5e29e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\ef5ac33ce8bc3a72d4ca2ebd02b8f104\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\ef5ac33ce8bc3a72d4ca2ebd02b8f104\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customtabs:23.2.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\customtabs-23.2.0.aar\5d3ab3a1cd47586eabaf703e40495eed\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customtabs:23.2.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\customtabs-23.2.0.aar\5d3ab3a1cd47586eabaf703e40495eed\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\bdd14be0a8cf9c311810e17ceb2a020d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\bdd14be0a8cf9c311810e17ceb2a020d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\36a1b193b60b6f04a22072c665b4ac28\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\36a1b193b60b6f04a22072c665b4ac28\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\b9d44f79a7997f3c03bd8df70e7b8ff9\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\b9d44f79a7997f3c03bd8df70e7b8ff9\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\cd82b66bee315330ea8212952d4e525f\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\cd82b66bee315330ea8212952d4e525f\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\794b1406f4485aa39d8e79d65300994c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\794b1406f4485aa39d8e79d65300994c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\b14cfcd6d331f6b0ab8c2fc548361cc1\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\b14cfcd6d331f6b0ab8c2fc548361cc1\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\dbe99fe0cd8d362f5be7b28060fd5276\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\dbe99fe0cd8d362f5be7b28060fd5276\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\9e3e606723a9f65e2e60bb965e3f18c0\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\9e3e606723a9f65e2e60bb965e3f18c0\AndroidManifest.xml:21:5-23:58
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\34b34d1d36965fc97bf8926f957e93ce\AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\34b34d1d36965fc97bf8926f957e93ce\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:design:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\69c88e53e2271a0b674553de327b9b4c\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\69c88e53e2271a0b674553de327b9b4c\AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.dagger:dagger-android-support:2.13] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\dagger-android-support-2.13.aar\b46b0fe45808d70c9111b1e49d18ca5d\AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-android-support:2.13] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\dagger-android-support-2.13.aar\b46b0fe45808d70c9111b1e49d18ca5d\AndroidManifest.xml:18:3-42
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\6041704382786db60f29d51c097af42f\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\6041704382786db60f29d51c097af42f\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\7fecb08cdabb4340fdf77a9a50d2d577\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\7fecb08cdabb4340fdf77a9a50d2d577\AndroidManifest.xml:5:5-7:41
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\8224cea6d47645a27e329f85bcddd972\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\8224cea6d47645a27e329f85bcddd972\AndroidManifest.xml:5:5-43
+MERGED from [net.openid:appauth:0.2.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\appauth-0.2.0.aar\d6697d9734c3fe82a66c1483ecebcd4e\AndroidManifest.xml:20:5-22:41
+MERGED from [net.openid:appauth:0.2.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\appauth-0.2.0.aar\d6697d9734c3fe82a66c1483ecebcd4e\AndroidManifest.xml:20:5-22:41
+MERGED from [com.jakewharton.timber:timber:4.6.1] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\timber-4.6.1.aar\ec241aec3adde32e581530e1d50e1799\AndroidManifest.xml:6:5-43
+MERGED from [com.jakewharton.timber:timber:4.6.1] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\timber-4.6.1.aar\ec241aec3adde32e581530e1d50e1799\AndroidManifest.xml:6:5-43
+MERGED from [com.google.dagger:dagger-android:2.13] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\dagger-android-2.13.aar\478167e604d821bf6d9b5e3443a9d070\AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-android:2.13] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\dagger-android-2.13.aar\478167e604d821bf6d9b5e3443a9d070\AndroidManifest.xml:18:3-42
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\84be81405bbafb18e441ab86eab3b16e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\84be81405bbafb18e441ab86eab3b16e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\0396d4d66dfbdebcda302d743eeef6c1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\0396d4d66dfbdebcda302d743eeef6c1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:23.2.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\customtabs-23.2.0.aar\07c13e61c57e45db07d2ae4111ac121e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:23.2.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\customtabs-23.2.0.aar\07c13e61c57e45db07d2ae4111ac121e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\25e7c6f51e564db791e29bb2a5dd07c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\25e7c6f51e564db791e29bb2a5dd07c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\4aea01186c30e9f02f3a07da1daa1500\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\4aea01186c30e9f02f3a07da1daa1500\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\19b075d951be1025842420e7eaa728c2\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\19b075d951be1025842420e7eaa728c2\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\be465c9fb8224d5abd773d8bda0f5217\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\be465c9fb8224d5abd773d8bda0f5217\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\4f0d20bcdeeac791f99a2b99172e70aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\4f0d20bcdeeac791f99a2b99172e70aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\4e9c9a21c612ca87f65d00d478e8d4a7\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\4e9c9a21c612ca87f65d00d478e8d4a7\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\b5aacf0e5de5d35924fa8641648e64c7\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\b5aacf0e5de5d35924fa8641648e64c7\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f6842cb275f765cb1e06caaa8f488450\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f6842cb275f765cb1e06caaa8f488450\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\90ad961de905af4a0f475d8eadbbdbe7\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\90ad961de905af4a0f475d8eadbbdbe7\AndroidManifest.xml:20:5-22:41
 INJECTED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\07b32795c0779a35a98956ded09d3941\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\69c88e53e2271a0b674553de327b9b4c\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml
@@ -219,36 +219,36 @@ INJECTED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManife
 		ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\07b32795c0779a35a98956ded09d3941\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7f4bd2d1c0822f3c9411854bab6d5b7c\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7f4bd2d1c0822f3c9411854bab6d5b7c\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\8a883356bd1b7487fe2c06db6ab5e29e\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\8a883356bd1b7487fe2c06db6ab5e29e\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:transition:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\ef5ac33ce8bc3a72d4ca2ebd02b8f104\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:transition:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\ef5ac33ce8bc3a72d4ca2ebd02b8f104\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\bdd14be0a8cf9c311810e17ceb2a020d\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\bdd14be0a8cf9c311810e17ceb2a020d\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\36a1b193b60b6f04a22072c665b4ac28\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\36a1b193b60b6f04a22072c665b4ac28\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\b9d44f79a7997f3c03bd8df70e7b8ff9\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\b9d44f79a7997f3c03bd8df70e7b8ff9\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\cd82b66bee315330ea8212952d4e525f\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\cd82b66bee315330ea8212952d4e525f\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\794b1406f4485aa39d8e79d65300994c\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\794b1406f4485aa39d8e79d65300994c\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\b14cfcd6d331f6b0ab8c2fc548361cc1\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\b14cfcd6d331f6b0ab8c2fc548361cc1\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\dbe99fe0cd8d362f5be7b28060fd5276\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\dbe99fe0cd8d362f5be7b28060fd5276\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\9e3e606723a9f65e2e60bb965e3f18c0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\9e3e606723a9f65e2e60bb965e3f18c0\AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:design:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\69c88e53e2271a0b674553de327b9b4c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\6041704382786db60f29d51c097af42f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\6041704382786db60f29d51c097af42f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\84be81405bbafb18e441ab86eab3b16e\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\84be81405bbafb18e441ab86eab3b16e\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\0396d4d66dfbdebcda302d743eeef6c1\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\0396d4d66dfbdebcda302d743eeef6c1\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\25e7c6f51e564db791e29bb2a5dd07c9\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\25e7c6f51e564db791e29bb2a5dd07c9\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\4aea01186c30e9f02f3a07da1daa1500\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\4aea01186c30e9f02f3a07da1daa1500\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\19b075d951be1025842420e7eaa728c2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\19b075d951be1025842420e7eaa728c2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\be465c9fb8224d5abd773d8bda0f5217\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\be465c9fb8224d5abd773d8bda0f5217\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\4f0d20bcdeeac791f99a2b99172e70aa\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\4f0d20bcdeeac791f99a2b99172e70aa\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\4e9c9a21c612ca87f65d00d478e8d4a7\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\4e9c9a21c612ca87f65d00d478e8d4a7\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\b5aacf0e5de5d35924fa8641648e64c7\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\b5aacf0e5de5d35924fa8641648e64c7\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f6842cb275f765cb1e06caaa8f488450\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f6842cb275f765cb1e06caaa8f488450\AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:design:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\07b32795c0779a35a98956ded09d3941\AndroidManifest.xml:28:13-35
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\69c88e53e2271a0b674553de327b9b4c\AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:design:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\07b32795c0779a35a98956ded09d3941\AndroidManifest.xml:27:13-51
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\69c88e53e2271a0b674553de327b9b4c\AndroidManifest.xml:27:13-51
 meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\34b34d1d36965fc97bf8926f957e93ce\AndroidManifest.xml:25:9-27:47
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\90ad961de905af4a0f475d8eadbbdbe7\AndroidManifest.xml:25:9-27:47
 	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\34b34d1d36965fc97bf8926f957e93ce\AndroidManifest.xml:27:13-44
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\90ad961de905af4a0f475d8eadbbdbe7\AndroidManifest.xml:27:13-44
 	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\34b34d1d36965fc97bf8926f957e93ce\AndroidManifest.xml:26:13-58
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Ciastek\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\90ad961de905af4a0f475d8eadbbdbe7\AndroidManifest.xml:26:13-58

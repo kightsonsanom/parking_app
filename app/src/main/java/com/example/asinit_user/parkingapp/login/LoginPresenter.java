@@ -44,19 +44,19 @@ public class LoginPresenter {
     public void doAuth() {
 
         AuthorizationServiceConfiguration serviceConfiguration = new AuthorizationServiceConfiguration(
-                Uri.parse("https://accounts.google.com/o/oauth2/v2/auth") /* auth endpoint */,
-                Uri.parse("https://www.googleapis.com/oauth2/v4/token") /* token endpoint */
+                Uri.parse("http://10.0.2.2:8080/auth/realms/parking-users/protocol/openid-connect/auth") /* auth endpoint */,
+                Uri.parse("http://10.0.2.2:8080/auth/realms/parking-users/protocol/openid-connect/token") /* token endpoint */
         );
 
-        String clientId = "111410532205-8n23r19d1m9pltrv4i3s6jjs5mu9j1dk.apps.googleusercontent.com";
-        Uri redirectUri = Uri.parse("com.googleusercontent.apps.111410532205-8n23r19d1m9pltrv4i3s6jjs5mu9j1dk:/oauth2redirect");
+        String clientId = "spring-app";
+        Uri redirectUri = Uri.parse("http://10.0.2.2:8081/abc");
         AuthorizationRequest.Builder builder = new AuthorizationRequest.Builder(
                 serviceConfiguration,
                 clientId,
                 RESPONSE_TYPE,
                 redirectUri
         );
-        builder.setScopes("profile");
+        builder.setScopes("profile, openid");
         AuthorizationRequest request = builder.build();
         loginCallback.createRequest(request);
     }

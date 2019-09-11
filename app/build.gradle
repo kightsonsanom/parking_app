@@ -13,7 +13,7 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
         manifestPlaceholders = [
-                'appAuthRedirectScheme': 'com.googleusercontent.apps.111410532205-8n23r19d1m9pltrv4i3s6jjs5mu9j1dk'
+                'appAuthRedirectScheme': 'http://10.0.2.2:8081/abc'
         ]
     }
     buildTypes {
