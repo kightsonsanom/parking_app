@@ -33,7 +33,7 @@ INJECTED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManife
 INJECTED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:2:1-50:12
 INJECTED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:2:1-50:12
 	package
-		ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:3:5-49
+		ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:3:5-39
 		INJECTED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -91,16 +91,16 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Ciastek\.gradle\cach
 	android:label
 		ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:12:9-51
 	android:icon
-		ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:10:9-51
 	android:allowBackup
 		ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
 		ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:14:9-40
 	android:name
-		ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:8:9-28
-activity#com.example.asinit_user.parkingapp.mainView.MainActivity
+		ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:8:9-52
+activity#pl.adbacademy.parkingapp.mainView.MainActivity
 ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:15:9-19:61
 	android:screenOrientation
 		ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:19:13-49
@@ -109,13 +109,13 @@ ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.
 	android:theme
 		ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:18:13-56
 	android:name
-		ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:16:13-50
-activity#com.example.asinit_user.parkingapp.login.LoginActivity
+		ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:16:13-74
+activity#pl.adbacademy.parkingapp.login.LoginActivity
 ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:20:9-30:20
 	android:screenOrientation
 		ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:21:13-49
 	android:name
-		ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:20:19-54
+		ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:20:19-78
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:22:13-25:29
 action#android.intent.action.MAIN
@@ -126,12 +126,12 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
 		ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:24:27-74
-intent-filter#action:name:com.example.asinit_user.parkingapp.HANDLE_AUTHORIZATION_RESPONSE+category:name:android.intent.category.DEFAULT
+intent-filter#action:name:pl.adbacademy.parkingapp.HANDLE_AUTHORIZATION_RESPONSE+category:name:android.intent.category.DEFAULT
 ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:26:13-29:29
-action#com.example.asinit_user.parkingapp.HANDLE_AUTHORIZATION_RESPONSE
-ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:27:17-106
+action#pl.adbacademy.parkingapp.HANDLE_AUTHORIZATION_RESPONSE
+ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:27:17-96
 	android:name
-		ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:27:25-104
+		ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:27:25-94
 category#android.intent.category.DEFAULT
 ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:28:17-75
 	android:name
@@ -140,7 +140,7 @@ activity#net.openid.appauth.RedirectUriReceiverActivity
 ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:32:9-41:20
 	android:name
 		ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:32:19-80
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:http://10.0.2.2:8081/abc
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:urn:ietf:wg:oauth:2.0:oob
 ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:33:13-40:29
 action#android.intent.action.VIEW
 ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:34:17-69
@@ -150,12 +150,12 @@ category#android.intent.category.BROWSABLE
 ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:37:17-78
 	android:name
 		ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:37:27-75
-activity#com.example.asinit_user.parkingapp.registerView.RegisterActivity
+activity#pl.adbacademy.parkingapp.registerView.RegisterActivity
 ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:42:9-43:51
 	android:screenOrientation
 		ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:43:13-49
 	android:name
-		ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:42:19-64
+		ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:42:19-88
 meta-data#preloaded_fonts
 ADDED from C:\Users\Ciastek\StudioProjects\parking\app\src\main\AndroidManifest.xml:45:9-47:57
 	android:resource

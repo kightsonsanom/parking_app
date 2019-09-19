@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.asinit_user.parkingapp"
+    package="pl.adbacademy.parkingapp"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -11,21 +11,22 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name="com.example.asinit_user.parkingapp.App"
+        android:name="pl.adbacademy.parkingapp.App"
         android:allowBackup="true"
         android:debuggable="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/app_logo_foreground"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/app_logo_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.asinit_user.parkingapp.mainView.MainActivity"
+            android:name="pl.adbacademy.parkingapp.mainView.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.example.asinit_user.parkingapp.login.LoginActivity"
+            android:name="pl.adbacademy.parkingapp.login.LoginActivity"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,7 +34,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
             <intent-filter>
-                <action android:name="com.example.asinit_user.parkingapp.HANDLE_AUTHORIZATION_RESPONSE" />
+                <action android:name="pl.adbacademy.parkingapp.HANDLE_AUTHORIZATION_RESPONSE" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -45,11 +46,11 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
-                <data android:scheme="http://10.0.2.2:8081/abc" />
+                <data android:scheme="urn:ietf:wg:oauth:2.0:oob" />
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.asinit_user.parkingapp.registerView.RegisterActivity"
+            android:name="pl.adbacademy.parkingapp.registerView.RegisterActivity"
             android:screenOrientation="portrait" />
 
         <meta-data

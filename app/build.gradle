@@ -5,7 +5,7 @@ android {
     }
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.example.asinit_user.parkingapp"
+        applicationId "pl.adbacademy.parkingapp"
         minSdkVersion 23
         targetSdkVersion 26
         versionCode 1
@@ -13,7 +13,7 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
         manifestPlaceholders = [
-                'appAuthRedirectScheme': 'http://10.0.2.2:8081/abc'
+                'appAuthRedirectScheme': 'urn:ietf:wg:oauth:2.0:oob'
         ]
     }
     buildTypes {

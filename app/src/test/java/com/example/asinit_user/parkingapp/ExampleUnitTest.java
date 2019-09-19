@@ -1,4 +1,4 @@
-package com.example.asinit_user.parkingapp;
+package pl.adbacademy.parkingapp;
 
 import org.junit.Test;
 

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.example.asinit_user.parkingapp.mainView.MainActivity"
+    tools:context="pl.adbacademy.parkingapp.pl.asinit_user.parkingapp.mainView.MainActivity"
     android:background="@drawable/parking">
 
     <android.support.design.widget.AppBarLayout

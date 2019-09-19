@@ -2,5 +2,12 @@
     <string name="app_name">UZ Parking</string>
     <string name="logout">Wyloguj</string>
     <string name="section_format">Hello World from section: %1$d</string>
-    <string name="preference_file_key">com.example.asinit_user.parkingapp.PREFERENCE_FILE_KEY</string>
+    <string name="preference_file_key">pl.adbacademy.parkingapp.PREFERENCE_FILE_KEY</string>
+    <string name="invalid_username_error">Nazwa użytkownika nie może być pusta</string>
+    <string name="registered_users">Zarejestrowani</string>
+    <string name="waiting_for_registration">Oczekujący</string>
+    <string name="user_color">#F7B700</string>
+    <string name="ordinary_user">Zwykły użytkownik</string>
+    <string name="user_updated">Zaktualizowano użytkownika</string>
+    <string name="user_deleted">Usunięto użytkownika</string>
 </resources>
